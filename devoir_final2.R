@@ -5,7 +5,7 @@
 # 1)Pour cet exercice, on nous demande de faire trois graphiques :
 # - Un graphique en nuage de points, un graphique en baton et un graphique en ligne
 
-# Installer les libraries que l'on va utuliser
+# Installer les librairies que l'on va utuliser
 
 install.packages("tidyverse")
 library(tidyr)
@@ -13,6 +13,9 @@ library(dplyr)
 
 install.packages("janitor")
 library("janitor")
+
+install.packages("ggplot2")
+library(ggplot2)
 
 # Importer des données sur Haïti de la Banque mondiale
 
